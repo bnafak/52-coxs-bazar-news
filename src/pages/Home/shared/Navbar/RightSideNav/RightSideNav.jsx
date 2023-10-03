@@ -7,28 +7,27 @@ import qZone3 from '../../../../../assets/qZone3.png'
 const RightSideNav = () => {
     return (
         <div>
-            <div className='p-4 mb-2'>
+            <div className='p-2 mb-2'>
                 <h2 className="text-2xl">Login With</h2>
                 <button className='btn btn-outline w-full'><FaGoogle></FaGoogle>Google</button>
             </div>
-            <div className='p-4'>
+            <div className='p-2'>
                 <h2 className="text-2xl"></h2>
                 <button className='btn btn-outline w-full'><FaGithub></FaGithub> Github</button>
             </div>
             
-
-            <div className='p-4'>
+            <div className='p-2'>
                 <h2 className="text-2xl">Find Us on</h2>
-                <a className='p-4 flex text-lg items-center border rounded-t-lg' href="">
+                <a className='p-2 flex text-lg items-center border rounded-t-lg' href="">
                     <FaFacebook className='mr-3'></FaFacebook>
                     <span>Facebook</span>  
                 </a>
-                <a className='p-4 flex text-lg items-center border-x' href="">
+                <a className='p-2 flex text-lg items-center border-x' href="">
                     
                     <FaTwitter className='mr-3'> </FaTwitter>
                     <span>Twitter</span>  
                 </a>
-                <a className='p-4 flex text-lg items-center border rounded-b-lg' href="">
+                <a className='p-2 flex text-lg items-center border rounded-b-lg' href="">
                   
                     <FaInstagram className='mr-3'> </FaInstagram>
                     <span>Instagram</span>  
